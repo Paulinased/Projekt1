@@ -1,1 +1,170 @@
+/* Reset */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Layout */
+
+.blog-header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+
+}
+
+.blog-header__inner {
+    height: 100px;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    padding: 0 30px 30px 30px;
+}
+
+.blog__inner {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.blog-footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.blog-footer__inner {
+    margin: 0 auto;
+    min-height: 200px;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* menu */
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+/* Blog posts */
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.post__header,
+.post__excerpt,
+.post__footer {
+    max-width: 800px;
+    width: 100%;
+
+}
+
+.post__header {
+    margin-bottom: 60px;
+}
+
+.post__image {
+    margin-bottom: 40px;
+}
+
+.post__excerpt {
+    margin-bottom: 40px;
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card__image {
+    margin: 0;
+}
+
+/* Bilder */
+
+.bilder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    gap: 30px;
+}
+
+.bild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.bild__image {
+    margin: 0;
+}
